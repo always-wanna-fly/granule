@@ -1,0 +1,12 @@
+uuid: 3af70187-e669-45da-a0e2-8a99db9e1627
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_product
+_core:
+  default_config_hash: ry5RvX-mOnp2GQWzMqSYjPz-jKfP1nSo4Xo4kJCodlE
+id: commerce_product_attribute_value.add_to_cart
+label: 'Форма "Додати у кошик"'
+targetEntityType: commerce_product_attribute_value
+cache: true

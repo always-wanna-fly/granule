@@ -1,0 +1,12 @@
+uuid: f218012e-d170-44c3-b2ad-4eff3a3be088
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_order
+_core:
+  default_config_hash: zGcQPC5MWgNSsQxarSWsXNIVpjb_vDAdcDLPupYmxQ8
+id: commerce_order.user
+label: Користувач
+targetEntityType: commerce_order
+cache: true

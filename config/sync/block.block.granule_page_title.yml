@@ -1,0 +1,27 @@
+uuid: 6f55c7a6-1856-475f-8877-e9ad28f310a0
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - granule
+_core:
+  default_config_hash: mmcopYofUmb3PLb10rD6utbPoo6_zpxaX4yf3i4xmH8
+id: granule_page_title
+theme: granule
+region: content
+weight: -8
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок сторінки'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/product/*\r\n/products*"
+    negate: true
+    context_mapping: {  }

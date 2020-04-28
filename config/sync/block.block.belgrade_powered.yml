@@ -1,0 +1,22 @@
+uuid: 4923c2b3-09d2-4b6d-a10e-04be16451a98
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - belgrade
+_core:
+  default_config_hash: z0llL779cPFRJ5myqA63dPOl35O7K1lx6wP5omHTi8U
+id: belgrade_powered
+theme: belgrade
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Працює на Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

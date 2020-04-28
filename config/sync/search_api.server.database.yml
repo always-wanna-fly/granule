@@ -1,0 +1,20 @@
+uuid: bf6f3bc0-c2dc-4e81-a7e4-42b37d4989fe
+langcode: uk
+status: true
+dependencies:
+  module:
+    - search_api_db
+_core:
+  default_config_hash: 093VgnBzQm9BnZzvQQJokRPE6vj2Y42nSMPSBtnjScU
+id: database
+name: 'База даних'
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 1
+  partial_matches: false
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true
+  matching: words

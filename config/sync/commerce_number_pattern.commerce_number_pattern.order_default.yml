@@ -1,0 +1,18 @@
+uuid: 487e75ec-37c1-4cf4-814d-4a1aed25ba54
+langcode: uk
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_order
+_core:
+  default_config_hash: zyTJjisGAiNCmSVzU73UWGY2joBWA3QXvlcjDDIuWcs
+id: order_default
+label: Базово
+targetEntityType: commerce_order
+plugin: infinite
+configuration:
+  pattern: '[pattern:number]'
+  initial_number: 1
+  padding: 0
+  per_store_sequence: true

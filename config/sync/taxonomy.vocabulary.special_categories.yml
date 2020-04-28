@@ -1,0 +1,10 @@
+uuid: f3495923-b294-4490-ba9d-1277dd93c95a
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: S7k_JqXLLyjWl9uZ95iSgvlb145gUJ9h22yEeuHK4mA
+name: 'Special categories'
+vid: special_categories
+description: ''
+weight: 0

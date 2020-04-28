@@ -1,0 +1,14 @@
+uuid: 3103116e-65f6-4307-bd7d-44509a42995a
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: igdv1CXBTq9vh-ONhQ2SFkVhr3bdfRC6nP1Uubdx-L0
+id: default
+label: Базово
+description: ''
+variationType: default
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

@@ -1,0 +1,34 @@
+definitions:
+  contact__site_page:
+    enabled: true
+    menu_name: footer
+    parent: ''
+    weight: 0
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__58':
+    weight: -50
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.54'
+    menu_name: catalog
+    enabled: true
+    expanded: false
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__60':
+    weight: -49
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.54'
+    menu_name: catalog
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__61':
+    weight: -48
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.54'
+    menu_name: catalog
+    expanded: false
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog__62':
+    weight: -47
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog.54'
+    menu_name: catalog
+    expanded: false
+    enabled: true
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+langcode: uk

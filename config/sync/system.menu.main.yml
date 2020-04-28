@@ -1,0 +1,10 @@
+uuid: d175afd3-542e-4cfe-bfee-84961f83e7b4
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
+id: main
+label: 'Основна навіґація'
+description: 'Посилання розділів сайту'
+locked: true

@@ -1,0 +1,10 @@
+uuid: cfde9bda-9aab-4e3e-83ba-f9c231497689
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5KeAEqEg3nwQ8oWhuadMscdtsLnT8QdRlWo9JFQrhdk
+id: catalog
+label: Catalog
+description: ''
+locked: false

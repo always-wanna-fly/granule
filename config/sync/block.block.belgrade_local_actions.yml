@@ -1,0 +1,20 @@
+uuid: 80a5c984-8179-4e72-b12e-10897faf460d
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - belgrade
+_core:
+  default_config_hash: EAlCAHiVy5x3aTOW2K9XaWE4kelyfSSSKv8_uiomGJM
+id: belgrade_local_actions
+theme: belgrade
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основні адміністративні дії'
+  provider: core
+  label_display: '0'
+visibility: {  }

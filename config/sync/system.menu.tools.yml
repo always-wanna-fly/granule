@@ -1,0 +1,10 @@
+uuid: 0896b0c8-fb1c-404f-9dd8-f71577f81c29
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BCM-vV1zzRaLHN18dqAR_CuGOj8AFJvTx7BKl_8Gcxc
+id: tools
+label: Інструменти
+description: 'Посилання інструментів користувача, часто додані модулями'
+locked: true

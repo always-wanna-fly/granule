@@ -1,0 +1,10 @@
+uuid: 2138eae3-3153-4c80-abad-b815e58a202f
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: og8sWXhBuHbLMw3CoiBEZjgqSyhFBFmcbUW_wLcfNbo
+id: long
+label: 'Базова довга дата'
+locked: false
+pattern: 'l, F j, Y - H:i'

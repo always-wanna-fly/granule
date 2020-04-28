@@ -1,0 +1,14 @@
+uuid: da937b61-3811-4e67-abb7-18226f835f3f
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YhOM0jcATwJkv-haxTHjYz_S2grlzmTfC64NUyMhhNI
+id: clothing
+label: Clothing
+description: ''
+variationType: clothing
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

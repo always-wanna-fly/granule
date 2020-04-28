@@ -1,0 +1,22 @@
+uuid: 270397ef-0b74-4013-9aa5-eedde7d85cc2
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - granule
+_core:
+  default_config_hash: uxiZlSldLtoOp05pfXeKJxxtvB0ckxx3mAAabJdAJnU
+id: granule_messages
+theme: granule
+region: highlighted
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Повідомлення про стан'
+  provider: system
+  label_display: '0'
+visibility: {  }

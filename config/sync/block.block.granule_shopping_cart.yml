@@ -1,0 +1,23 @@
+uuid: c5f78e0e-79af-4234-ab0b-0db2af15a31a
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_cart_flyout
+  theme:
+    - granule
+id: granule_shopping_cart
+theme: granule
+region: navigation
+weight: -5
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: 'Shopping Cart'
+  provider: commerce_cart
+  label_display: '0'
+  use_quantity_count: false
+  dropdown: true
+  item_text: items
+visibility: {  }

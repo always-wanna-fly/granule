@@ -1,0 +1,25 @@
+uuid: b75f1632-d18e-42ca-bad6-8ce70d709818
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - granule
+_core:
+  default_config_hash: ZuTeLM6v6-OKUtrY__rhDL0JEJvahVG2Zdgqbg20E3I
+id: granule_branding
+theme: granule
+region: header
+weight: -9
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендування сайту'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

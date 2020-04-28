@@ -1,0 +1,28 @@
+uuid: 8da4db7c-5e05-4cea-8fd0-f4db4d5051a7
+langcode: uk
+status: false
+dependencies:
+  config:
+    - facets.facet.brand
+  module:
+    - facets
+    - system
+  theme:
+    - bootstrap
+id: bootstrap_facets_brand
+theme: bootstrap
+region: navigation
+weight: 0
+provider: null
+plugin: 'facet_block:brand'
+settings:
+  id: 'facet_block:brand'
+  label: Brand
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: "/products\r\n/products/*"
+    negate: false
+    context_mapping: {  }

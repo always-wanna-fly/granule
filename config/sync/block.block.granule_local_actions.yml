@@ -1,0 +1,20 @@
+uuid: d7322068-b1c9-4012-9f7d-d4a613079a09
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - granule
+_core:
+  default_config_hash: EAlCAHiVy5x3aTOW2K9XaWE4kelyfSSSKv8_uiomGJM
+id: granule_local_actions
+theme: granule
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основні адміністративні дії'
+  provider: core
+  label_display: '0'
+visibility: {  }

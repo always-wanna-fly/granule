@@ -1,0 +1,25 @@
+uuid: d6760d56-8133-4fb8-95d0-be69b8b656c7
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.catalog
+  module:
+    - system
+  theme:
+    - granule
+id: granule_catalog_menu_navigation
+theme: granule
+region: navigation
+weight: 0
+provider: null
+plugin: 'system_menu_block:catalog'
+settings:
+  id: catalog_menu_navigation
+  label: 'Catalog menu navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: ad017268-955f-4eb0-a9cc-f04016114ea6
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - granule
+_core:
+  default_config_hash: XJkApTCnidVbNIe-SvLIX1pVPIiw5j_m0SWT-eYw39E
+id: granule_content
+theme: granule
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Основний вміст сторінки'
+  provider: system
+  label_display: '0'
+visibility: {  }

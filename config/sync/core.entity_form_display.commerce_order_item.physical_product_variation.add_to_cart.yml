@@ -1,0 +1,26 @@
+uuid: 5095a08e-5d03-40d5-b7d0-e94408c1c565
+langcode: uk
+status: true
+dependencies:
+  config:
+    - commerce_order.commerce_order_item_type.physical_product_variation
+    - core.entity_form_mode.commerce_order_item.add_to_cart
+  module:
+    - commerce_product
+_core:
+  default_config_hash: XL5UOTMoBfhJDnxKnyx4ZPRxyTNAp0UEXFsKXAF5arI
+id: commerce_order_item.physical_product_variation.add_to_cart
+targetEntityType: commerce_order_item
+bundle: physical_product_variation
+mode: add_to_cart
+content:
+  purchased_entity:
+    type: commerce_product_variation_attributes
+    weight: 0
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+hidden:
+  created: true
+  quantity: true
+  unit_price: true

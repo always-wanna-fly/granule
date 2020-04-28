@@ -1,0 +1,14 @@
+uuid: 5976c1ea-d4fa-417c-9e57-713c46ba4ddd
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Зворотний зв''язок вебсайту'
+recipients:
+  - vovaivanitskyi@gmail.com
+reply: ''
+weight: 0
+message: null
+redirect: null

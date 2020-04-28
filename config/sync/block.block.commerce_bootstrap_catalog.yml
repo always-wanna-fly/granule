@@ -1,0 +1,25 @@
+uuid: ae8df43b-0f04-43c6-bf4c-15cebc13d7ad
+langcode: uk
+status: false
+dependencies:
+  config:
+    - system.menu.catalog
+  module:
+    - system
+  theme:
+    - commerce_bootstrap
+id: commerce_bootstrap_catalog
+theme: commerce_bootstrap
+region: navigation
+weight: -6
+provider: null
+plugin: 'system_menu_block:catalog'
+settings:
+  id: catalog_footer
+  label: Catalog
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

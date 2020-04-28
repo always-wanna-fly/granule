@@ -1,0 +1,25 @@
+uuid: 641a4373-922b-4f12-af1c-507704e51d9f
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - granule
+id: granule_breadcrumbs
+theme: granule
+region: highlighted
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "/checkout\r\n/checkout/*"
+    negate: true
+    context_mapping: {  }

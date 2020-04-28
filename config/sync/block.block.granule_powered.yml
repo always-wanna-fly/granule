@@ -1,0 +1,22 @@
+uuid: 06f3bec7-dca3-444d-9e1d-30f38438e6c1
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - granule
+_core:
+  default_config_hash: z0llL779cPFRJ5myqA63dPOl35O7K1lx6wP5omHTi8U
+id: granule_powered
+theme: granule
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Працює на Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

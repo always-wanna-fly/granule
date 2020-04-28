@@ -1,0 +1,28 @@
+uuid: 024ed4a6-1b4c-46ab-a1d3-5f5d5a0d7f51
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_checkout
+    - system
+  theme:
+    - belgrade
+_core:
+  default_config_hash: jSLJ3sJUecEmCmbbB-ISvExMtHpzXsFIguGKTTI6lPA
+id: belgrade_checkout_progress
+theme: belgrade
+region: content
+weight: -7
+provider: null
+plugin: commerce_checkout_progress
+settings:
+  id: commerce_checkout_progress
+  label: 'Поступ оформлення'
+  provider: commerce_checkout
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '/checkout/*'
+    negate: false
+    context_mapping: {  }

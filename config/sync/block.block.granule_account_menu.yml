@@ -1,0 +1,27 @@
+uuid: f94a6478-350f-4047-91be-adf0210dda9d
+langcode: uk
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - granule
+_core:
+  default_config_hash: l7DU4IlrCj2DTMidvM-KK-P8heuOP8XCsxry_UoLm5E
+id: granule_account_menu
+theme: granule
+region: navigation
+weight: -6
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'Меню облікового запису користувача'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

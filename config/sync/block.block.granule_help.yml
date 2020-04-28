@@ -1,0 +1,22 @@
+uuid: b965e9de-2393-49f9-84d5-00b35af5ba32
+langcode: uk
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - granule
+_core:
+  default_config_hash: gKtOcSQTQki2pujw1HB5crJu7WlQmuPbl9cMqPDeWtA
+id: granule_help
+theme: granule
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Довідка
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,9 @@
+uuid: 497417a8-8f79-4a01-9e80-8790ce4ebf35
+langcode: uk
+status: true
+dependencies: {  }
+id: uk
+label: Ukrainian
+direction: ltr
+weight: 0
+locked: false

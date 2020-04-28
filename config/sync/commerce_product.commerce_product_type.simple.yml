@@ -1,0 +1,14 @@
+uuid: 6d425a31-3165-48ac-8a5e-37f67889c279
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: mvzYmfwxSyvKB7c8oPntH7tTMzMwbxUaZAwQvvurDIg
+id: simple
+label: Simple
+description: ''
+variationType: simple
+multipleVariations: false
+injectVariationFields: true
+traits: {  }
+locked: false

@@ -1,0 +1,13 @@
+uuid: ceedfb43-51ef-4f32-95a6-fc64c98461c9
+langcode: uk
+status: true
+dependencies:
+  module:
+    - commerce_product
+_core:
+  default_config_hash: 6gfQWDjHFkJsE2C2ayhUL7x1jBGPgOhr3SGF15Kxy-w
+id: commerce_unpublish_product
+label: 'Зняти з публікації товар'
+type: commerce_product
+plugin: commerce_unpublish_product
+configuration: {  }

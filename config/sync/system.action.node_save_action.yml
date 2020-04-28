@@ -1,0 +1,13 @@
+uuid: d9794a7b-fc21-4908-804e-342fd6f64507
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: LhdsoZPL_pFas2fjaAWue4zvrQ_tEVofLYtcNec-JGM
+id: node_save_action
+label: 'Зберегти матеріал'
+type: node
+plugin: 'entity:save_action:node'
+configuration: {  }

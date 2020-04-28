@@ -1,0 +1,9 @@
+uuid: 7484e72e-b1f4-49ba-995f-f85b7581a437
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 30WJOLQaq2rsyKLsjNWWE7NpT0kIZS2eBqeCyqs5btY
+id: size
+label: Розмір
+elementType: select

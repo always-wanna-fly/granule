@@ -1,0 +1,10 @@
+uuid: 80e95f2e-f78f-4fca-ac64-affe2137ca4e
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dCWKvMiiLfQLJ7GqLzkk86TfGzs1bgTvRwATuh2WJR0
+name: Brands
+vid: brands
+description: ''
+weight: 0

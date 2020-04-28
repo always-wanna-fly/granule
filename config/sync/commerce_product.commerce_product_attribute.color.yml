@@ -1,0 +1,9 @@
+uuid: 281477d2-90d2-492b-a3a8-985df7c0eb5d
+langcode: uk
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dRLz5vHeSzElOdLn8kWNvd2dehykwSOjJoKFihZNh3Q
+id: color
+label: Колір
+elementType: commerce_product_rendered_attribute

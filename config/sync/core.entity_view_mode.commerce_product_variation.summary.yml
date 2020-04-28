@@ -1,0 +1,15 @@
+uuid: 445d0316-6776-4c03-b490-fe00a61ee9e4
+langcode: uk
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_checkout
+  module:
+    - commerce_product
+_core:
+  default_config_hash: 23R0npqqL2T9F-gDL2Lor2GfZj_lDvmv-kwdQzPCxMw
+id: commerce_product_variation.summary
+label: Резюме
+targetEntityType: commerce_product_variation
+cache: true

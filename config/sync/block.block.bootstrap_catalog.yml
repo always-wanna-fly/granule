@@ -1,0 +1,25 @@
+uuid: 0e2c7bee-3b20-47aa-a0fc-b6d0f2cc45e2
+langcode: uk
+status: false
+dependencies:
+  config:
+    - system.menu.catalog
+  module:
+    - system
+  theme:
+    - bootstrap
+id: bootstrap_catalog
+theme: bootstrap
+region: navigation
+weight: -6
+provider: null
+plugin: 'system_menu_block:catalog'
+settings:
+  id: catalog_footer
+  label: Catalog
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
