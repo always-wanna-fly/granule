@@ -1,0 +1,20 @@
+name: granule-ecoshop
+recipe: drupal8
+config:
+  webroot: web
+  via: nginx
+  php: 7.3
+  xdebug: true
+
+services:
+  #  appserver:
+  #    overrides:
+  #      environment:
+  #        PHP_IDE_CONFIG: "serverName=appserver"
+  #      run:
+  #        - "cd $LANDO_MOUNT && composer install"
+  mailhog:
+    type: mailhog
+    hogfrom:
+      - appserver
+    portforward: 1026
