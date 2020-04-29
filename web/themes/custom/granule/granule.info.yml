@@ -9,7 +9,8 @@ package: 'Bootstrap'
 regions:
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
-  header: 'Top Bar'
+  header: 'Header'
+  headerline: 'headerline'
   highlighted: 'Highlighted'
   help: 'Help'
   content: 'Content'
@@ -18,6 +19,7 @@ regions:
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
+  hidden_block: 'hidden block'
 
 libraries-extend:
   bootstrap/framework:

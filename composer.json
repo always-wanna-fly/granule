@@ -39,6 +39,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.8.0",
         "drupal/core-composer-scaffold": "^8.8.0",
+        "drupal/views_slideshow": "^4.7",
         "drupalcommerce/demo_commerce": "dev-master",
         "oomphinc/composer-installers-extender": "^1.1",
         "webflo/drupal-finder": "^1.0.0",

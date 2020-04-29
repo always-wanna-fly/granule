@@ -1,0 +1,22 @@
+uuid: c71cf058-3ebc-49a3-9d18-525d980db686
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.slider
+id: node.slider.promote
+field_name: promote
+entity_type: node
+bundle: slider
+label: 'Винесено на головну сторінку'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Увімкнено
+  off_label: Вимкнено
+field_type: boolean
