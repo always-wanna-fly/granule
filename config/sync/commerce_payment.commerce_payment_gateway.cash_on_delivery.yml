@@ -5,7 +5,7 @@ dependencies: {  }
 _core:
   default_config_hash: GSl6UVqPYA2on9jQJpHPyNA7yKnLRfoC3fZRyjytCtA
 id: cash_on_delivery
-label: 'Cash on delivery'
+label: Оформлення
 weight: null
 plugin: manual
 configuration:
