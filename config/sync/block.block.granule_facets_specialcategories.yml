@@ -1,6 +1,6 @@
 uuid: c042f259-721b-4919-b7a5-3f7a5eeaae8e
 langcode: uk
-status: true
+status: false
 dependencies:
   config:
     - facets.facet.special_categories

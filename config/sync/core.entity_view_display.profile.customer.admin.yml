@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.profile.admin
     - field.field.profile.customer.address
+    - field.field.profile.customer.field_call_number
     - field.field.profile.customer.tax_number
     - profile.type.customer
   enforced:
@@ -13,6 +14,7 @@ dependencies:
   module:
     - address
     - commerce_tax
+    - telephone
 _core:
   default_config_hash: YIL4nZ3a2ByhSU7C9ITZYsmB6l3GSsvLyGlwNF1_hW4
 id: profile.customer.admin
@@ -22,17 +24,26 @@ mode: admin
 content:
   address:
     type: address_default
-    weight: 0
+    weight: 1
     label: hidden
     settings: {  }
     third_party_settings: {  }
     region: content
+  field_call_number:
+    type: telephone_link
+    weight: 0
+    region: content
+    label: above
+    settings:
+      title: ''
+    third_party_settings: {  }
   tax_number:
     type: commerce_tax_number_default
     settings:
       show_verification: true
-    weight: 1
+    weight: 2
     label: above
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  search_api_excerpt: true

@@ -1,0 +1,15 @@
+{{ attach_library('granule/header-block') }}
+{%
+  set classes = [
+    'region',
+    'region-' ~ region|clean_class,
+    'clearfix',
+  ]
+%}
+{% if content %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block region_content %}
+      {{ content }}
+    {% endblock %}
+  </div>
+{% endif %}

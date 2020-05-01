@@ -6,17 +6,29 @@ schemas:
 _core:
   default_config_hash: 1uFogeFphl0Hg6oVCacZZ8mM_0wMZ7PS_RrmLbK5tf0
 favicon:
-  mimetype: image/vnd.microsoft.icon
-  path: ''
-  url: 'http://granule-ecoshop.lndo.site/themes/custom/granule/favicon.ico'
-  use_default: true
+  mimetype: image/png
+  path: 'public://logo-pink_0.png'
+  url: 'http://granule-ecoshop.lndo.site/sites/default/files/logo-pink_0.png'
+  use_default: 0
 features:
-  comment_user_picture: true
-  comment_user_verification: true
-  favicon: true
-  node_user_picture: true
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 1
+  node_user_picture: 1
 logo:
-  path: ''
+  path: 'public://logo-pink.png'
   url: ''
-  use_default: true
+  use_default: 0
+table_responsive: '-1'
+region_wells:
+  headerline: ''
+  sidebar_second: ''
+  hidden_block: ''
+cdn_theme: ''
+cdn_cache_ttl_versions: 0
+cdn_cache_ttl_themes: 0
+cdn_cache_ttl_assets: 0
+cdn_cache_ttl_library: 0
+reset_http_request_cache: ''
+table: ''
 breadcrumb_title: false

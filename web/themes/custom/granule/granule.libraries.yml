@@ -3,6 +3,17 @@ framework:
     theme:
       css/style.css: {}
 
+
+product-catalog:
+  css:
+    theme:
+      css/product-catalog.css: {}
+
+header-block:
+  css:
+    theme:
+      css/header-block.css: {}
+
 # Uncomment for LESS source JavaScript files.
 #  js:
 #    bootstrap/js/affix.js: {}

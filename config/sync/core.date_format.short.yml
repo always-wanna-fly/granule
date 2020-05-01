@@ -7,4 +7,4 @@ _core:
 id: short
 label: 'Базова коротка дата'
 locked: false
-pattern: 'm/d/Y - H:i'
+pattern: 'H:i - m/d/Y'

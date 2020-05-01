@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.profile.customer.address
+    - field.field.profile.customer.field_call_number
     - field.field.profile.customer.tax_number
     - profile.type.customer
   enforced:
@@ -11,6 +12,7 @@ dependencies:
       - commerce_order
   module:
     - address
+    - telephone
 _core:
   default_config_hash: 3LyHGK7R4HxqejbxONet1S9j9ekqLJuFpwT-MNJygvo
 id: profile.customer.default
@@ -23,6 +25,13 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_call_number:
+    weight: 26
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: telephone_default
     region: content
 hidden:
   is_default: true

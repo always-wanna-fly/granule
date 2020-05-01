@@ -1,0 +1,21 @@
+uuid: 52947435-98fd-47f3-8076-89cc11e56258
+langcode: uk
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_call_number
+    - profile.type.customer
+  module:
+    - telephone
+id: profile.customer.field_call_number
+field_name: field_call_number
+entity_type: profile
+bundle: customer
+label: 'Номер телефону'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

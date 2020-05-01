@@ -5,14 +5,14 @@ dependencies: {  }
 _core:
   default_config_hash: GSl6UVqPYA2on9jQJpHPyNA7yKnLRfoC3fZRyjytCtA
 id: cash_on_delivery
-label: Оформлення
+label: 'Оплата при доставці'
 weight: null
 plugin: manual
 configuration:
   instructions:
-    value: 'You will pay when receiving package. '
+    value: 'З вами зв''яжуться для кінцевого оформлення замовлення'
     format: plain_text
-  display_label: 'Cash on delivery'
+  display_label: 'Оплата при доставці'
   mode: n/a
   payment_method_types:
     - credit_card

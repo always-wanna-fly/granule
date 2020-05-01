@@ -17,9 +17,10 @@ provider: null
 plugin: 'facet_block:product_categories'
 settings:
   id: 'facet_block:product_categories'
-  label: Categories
+  label: Категорії
   provider: facets
   label_display: visible
+  block_id: granule_facets_categories
 visibility:
   request_path:
     id: request_path
